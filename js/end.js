@@ -5,7 +5,12 @@ const mostRecentScore = localStorage.getItem("mostRecentScore");
 
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
-finalScore.innerText = mostRecentScore;
+
+if(mostRecentScore <= 0){
+    finalScore.innerText = mostRecentScore  + " point";
+}else{
+    finalScore.innerText = mostRecentScore  + " points";
+}
 
 username.addEventListener("keyup", () => {
     saveScoreBtn.disabled = !username.value;
