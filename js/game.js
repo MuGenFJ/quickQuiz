@@ -20,7 +20,7 @@ let questions = [
         "answer": 1
       },
       {
-        "question": "[Select the right traduction] : \nI'll go probably with my family in Tokyo next winter.",
+        "question": "[Select the right translation] : \nI'll go probably with my family in Tokyo next winter.",
         "choice1": "東京に行こうと思っています。",
         "choice2": "友達に会って海に行くつもりです。",
         "choice3": "次の冬家族と東京に行くでしょう。",
@@ -44,7 +44,7 @@ let questions = [
         "answer": 3
       },
       {
-        "question": "[Select the right traduction] : \nSince my japanese is not so good, i try to study everyday.",
+        "question": "[Select the right translation] : \nSince my japanese is not so good, i try to study everyday.",
         "choice1": "僕の日本語はあまり上手じゃないので毎日勉強するようにしています。",
         "choice2": "毎日日本語を勉強すれば上手になりますよ。",
         "choice3": "日本語は難しいですが面白いとおもいます。",
